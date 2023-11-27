@@ -1,0 +1,228 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin:0;
+   }
+
+:root{
+  --primarycolour:rgb(221, 236, 241);
+  --secondarycolor:rgb(39, 47, 161);
+  --tertiarycolor:rgb(121, 249, 249);
+  --bordercolor:#0000ff;  
+}
+body{
+    background:var(--primarycolour);}
+  
+.header{
+    padding:20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--tertiarycolor);
+    color: var(--secondarycolor);
+    border-width: 5px;
+    border-color:var(--bordercolor);
+    border-bottom-style: groove;
+    border-top: 5px;
+    }
+.header h1{
+    font-size : 40px ;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
+    display: inline-block;
+}
+.header div{
+    padding-top: 10px;
+    float:right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+}
+.header div ul{
+    list-style-type: none;
+}
+.header div ul li{
+    display:inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top:-10px;
+}
+.left{
+    margin-left: 20px;
+    max-height: 150px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    align-items:center;
+    margin-left:50px;
+
+}
+.content{
+    width:100%;
+    display:inline-block;
+    border-style:solid;
+    border-color:#0000ff;
+    border-top:0px;
+    }
+.AboutMe
+{
+padding-bottom: 20px;
+padding-top:20px;
+display: inline-flex;
+height:300px;
+color:var(--secondarycolor);
+align-items: center;
+background-color: var(--tertiarycolor);
+width:100%;}
+
+.work
+{
+padding-bottom: 00px;
+padding-top:20px;
+width:100%;
+display:inline-flex;
+height: 800px;
+color:var(--secondarycolor);
+align-items: center;
+background-color: var(--tertiarycolor);}
+.w
+{
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    height:600px ;
+    border-color: black;
+    padding-right: 38px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-top: 240px;
+}
+.contact
+{
+padding-bottom: 60px;
+padding-top:20px;
+display:inline-flex;
+height: 20px;
+color:var(--secondarycolor);
+align-items: center;
+background-color: var(--tertiarycolor);
+text-align: center;
+width: 100%;
+}
+.c
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    height:60px ;
+    width:120px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right:10px;
+}
+
+.horiseon{
+    display:block;
+    margin-left: 50px;
+    position: relative;
+    border-width: 5px;
+    border-color: black;
+    border-style: groove;
+    margin: 50px;
+    
+}
+.chess{
+    display:block;
+    margin-left: 50px;
+    position: relative;
+    border-width: 5px;
+    border-color: black;
+    border-style: groove;
+    margin: 50px;
+    
+}
+.board{
+    display:block;
+    margin-left: 50px;
+    position: relative;
+    border-width: 5px;
+    border-color: black;
+    border-style: groove;
+    margin: 50px;
+}.switch{
+    display:block;
+    margin-left: 50px;
+    position: relative;
+    border-width: 5px;
+    border-color: black;
+    border-style: groove;
+    margin: 50px;
+    
+}
+
+p{ text-align: center;
+     padding-top: 5px;
+    margin-left: 35px;
+    font-size: 24px;;
+    }
+
+.h2{
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    height:150px ;
+    border-color: black;
+    padding-right: 20px;
+    border-style: solid;
+    padding-left: 20px;
+}
+.border{
+    
+    border-style:solid;
+    border-color:#0000ff;
+    border-width:5px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 5px;
+    border-bottom: 5px;
+
+}
+.footer
+{
+    font-size: 30px;
+    text-align: center;
+    clear:both;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--tertiarycolor);
+    color: var(--secondarycolor);
+    border-width: 5px;
+    border-color:var(--bordercolor);
+    border-style: groove;
+    border-top: 10px;
+    text-decoration: underline;}
+
+.horiseon
+{
+    border-color: rgb(9, 100, 12);
+    background-color: rgb(229, 255, 0); 
+    box-shadow: 2px 0 0 2px;
+}   
+.horiseon:hover
+{
+    border-color: rgb(68, 9, 100);
+    background-color: rgb(255, 0, 89);
+    box-shadow: 5px 0 0 5px;}
+  .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;}
+ .column {
+            flex: 50%;
+            padding: 0 4px;}
+            
+ .column {
+            margin-top: 8px;
+          vertical-align: middle;}
